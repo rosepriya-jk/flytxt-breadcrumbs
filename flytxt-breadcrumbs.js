@@ -28,9 +28,8 @@ Polymer({
   setCrumbs: function() {
     var me = this;
     me.$.crumbs.innerHTML = '';
-    var results = [];
     _.forEach(crumbs, function(crumb) {
-      results.push(Polymer.dom(me.$.crumbs).appendChild(crumb));
+      Polymer.dom(me.$.crumbs).appendChild(crumb);
     });
   }
 });
