@@ -19,6 +19,6 @@
   ],
   "dependencies": {
     "polymer": "Polymer/polymer#^1.0.0",
-    "flytxt-breadcrumb":"flytxt/flytxt-breadcrumb#v1.0.1"
+    "flytxt-breadcrumb":"flytxt/flytxt-breadcrumb"
   }
 }
